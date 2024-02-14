@@ -1,4 +1,4 @@
-div.cards-container:has(div.cards-wrapper:has(div.slider)) {
+.section.cards-container {
   background-color: black;
 }
 
