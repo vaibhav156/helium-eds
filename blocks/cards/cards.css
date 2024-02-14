@@ -13,7 +13,7 @@
 
 .cards > ul > li {
   border: 1px solid var(--dark-color);
-  background-color: var(--background-color)
+  background-color: var(--background-color);
 }
 
 .cards .cards-card-body {
@@ -32,4 +32,33 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+.slider-container {
+  padding: 64px 0 !important;
+  .cards-slider-wrapper {
+    background-color: black;
+    max-width: unset !important;
+    margin: 0 !important;
+    .cards.slider {
+      margin: 1rem 10rem;
+      ul {
+        grid-template-columns: auto auto auto auto;
+      }
+    }
+  }
+
+  .cards .cards-card-body {
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 225px;
+    max-height: 250px;
+
+    margin: 0 !important;
+    strong {
+      position: relative;
+      top: -5rem;
+      color: white;
+    }
+  }
 }
