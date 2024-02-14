@@ -1,3 +1,6 @@
+.carousel-wrapper {
+  min-width: 100%;
+}
 .carousel .carousel-slides-container {
     position: relative;
   }
