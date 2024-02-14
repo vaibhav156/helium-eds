@@ -2,7 +2,7 @@
   min-width: 100%;
 }
 .carousel-container {
-  padding: 0;
+  padding: 0 !important;
 }
 .carousel .carousel-slides-container {
     position: relative;
