@@ -43,6 +43,9 @@
     .cards.slider {
       margin: 1rem 10rem;
       ul {
+        li {
+          border: 1px solid black;
+        }
         grid-template-columns: auto auto auto auto;
       }
     }
@@ -52,12 +55,13 @@
     min-width: 300px;
     max-width: 300px;
     min-height: 225px;
-    max-height: 250px;
-
+    max-height: 225px;
     margin: 0 !important;
     strong {
       position: relative;
-      top: -5rem;
+      font-size: 16px;
+      bottom: 5rem;
+      left: 0.6rem;
       color: white;
     }
   }
