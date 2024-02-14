@@ -44,18 +44,18 @@
       margin: 1rem 10rem;
       ul {
         li {
+          min-width: 300px;
+          max-width: 300px;
+          min-height: 225px;
+          max-height: 225px;
+          column-gap: 30px;
           border: 1px solid black;
         }
-        grid-template-columns: auto auto auto auto;
       }
     }
   }
 
   .cards .cards-card-body {
-    min-width: 300px;
-    max-width: 300px;
-    min-height: 225px;
-    max-height: 225px;
     margin: 0 !important;
     strong {
       position: relative;
