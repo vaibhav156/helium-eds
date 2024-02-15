@@ -66,3 +66,16 @@
     }
   }
 }
+
+.cards .cards-card-body {
+  padding: 24px;
+  margin: 0 !important;
+  p:first-child {
+    font-size: 17.5px;
+    margin: 0px 0px 10px;
+    line-height: 21px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
