@@ -57,12 +57,14 @@
 
   .cards .cards-card-body {
     margin: 0 !important;
+    padding: 0;
     strong {
       position: relative;
       font-size: 16px;
       bottom: 5rem;
       left: 0.6rem;
       color: white;
+      line-height: 0px;
     }
   }
 }
